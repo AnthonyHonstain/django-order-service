@@ -8,8 +8,8 @@
 * `poetry install --no-root`
 * `python manage.py migrate`
 * `python manage.py createsuperuser`
-* `python manage.py runserver`
-    *  Alternatively can run with gunicorn `gunicorn --bind 0.0.0.0:8000 Product.wsgi -w 1`
+* `python manage.py runserver 8002`
+    *  Alternatively can run with gunicorn `gunicorn --bind 0.0.0.0:8002 order.wsgi -w 1`
 * `python manage.py test`
 * `mypy .`
 * `black .`
